@@ -3,7 +3,6 @@ import os
 
 class Config:
     DATABASE_URL = 'sqlite:///sample.db'
-    # DATABASE_URL=postgres://errorfeed:errorfeed@localhost/contactie
 
 
 class DevelopmentConfig(Config):
